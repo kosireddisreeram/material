@@ -1,0 +1,502 @@
+css
+cascading style sheet
+three way to use css
+inline-within the line .
+internal - within the style tag .
+external - link rel ="styleshee" href="" .
+
+
+P{
+color:red;
+l
+
+}
+
+-------------------------
+element selector:
+p {
+text-align :center;
+}
+---------------------
+class selector:
+.on{
+align -items:center;
+}
+we need call the selector with . classname
+---------------------
+id selector{
+#idname
+we will call the id with #
+}
+-----------------------
+
+universal selector:
+*{
+background-color:red;
+}
+
+we can call the universal selector with *.
+---------------------
+grouping selectors:
+h1,p{
+align-items:center;
+
+}
+-------------
+element class selector:
+element.class p.one :
+--------------
+csscomments:
+/* */
+--------------------------
+
+css colors:
+<h1 style="background-color:red;">
+
+if you want to add some color to text
+<h1 style="color:red;"></h1>
+
+-----------------
+rgb colors:
+rgb (red,green,blue)
+-------------
+hexadecimal
+#RR (red)GG(green)BB(blue)
+-------------------
+css backgrounds:
+background-color:
+-------------
+background-image:url() 
+-----------------------
+background-size:cover
+-----------------------
+background-repeat:no-repeat;//specifying that the background-image will not repeat
+----------------
+repeat-x:the image will be repeat in x axis
+repeat-y:the image will be repeated on the y axis
+--------------------------
+
+border:
+h1{
+border-style:dotted;
+}
+border style which will define the border style of the content.
+******
+border-width:1px solid black- the border will be in black color and black in color
+5px 26px 4px 5px- top right bottom left
+------------------------
+margin:
+it is used to define the space above the border
+
+margin-top:10px;
+
+the top will be added 10 px margin
+****
+margin-collapse:the margin will be collapsed.
+margin-top
+margin-left
+margin-right
+margin-bottom
+-----------------------------
+padding is used to create the space around the element
+padding-top:20px;
+-----------------
+box model:
+content
+padding
+border
+margin
+-----------------
+outline:
+the space or pattern around it
+
+outline:dashed;
+------------------
+
+outline-offset:
+the space between the border and element
+Another box will be added
+--------------------------
+css text:
+color:blue; text will be in blue color
+
+--------------------
+text-alignment:
+text-align :center; text will be aligned to center
+text-align:left; text will be aligned to left
+text-akign:right; text will be aligned to right
+-------------------------------
+text- decoration:
+to decorate the text with some property
+text-decoration:dotted;
+
+--------------------------
+text transform:
+we can transform the text from lower to upper
+text- transform : uppercase - all the  text will be capital
+text-tansform:lowercase - all the letters will lowe
+text-transform:capitalize - the starting letter will be capital
+--------------------
+
+
+text shadow : 
+it will add the shadow to the text.
+
+in the vertical and horizontal
+
+------------------
+
+css fonts:
+
+h5{
+font-family:serif;
+}
+--------------------
+h1{
+font-size:40px;
+}
+google fonts:
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+we can add the link in the header section to get all
+---------------
+css icons: we can add the icons to the css with the link in their head
+
+----------------------
+
+
+links:
+unvisited:a normal unvisited link
+visited:a visited link .
+hover: when we hover on the link
+active: when the link is active
+a{
+color:blue;
+}
+the link color will be in blue. 
+a{
+text-decoration: none;
+}
+underline will be removed .
+---------------------
+
+list style:
+list-style-type:none
+
+the list style will be deleted.
+
+list-style:square;
+----------------------
+table style:
+we will be add style to the table
+
+table,tr,th,td{
+border:1px solid black;
+}
+*************
+width:100%;
+table{
+widht:100%;
+}
+****************
+table{
+border-collapse:collapse;
+}
+---------------------
+css positions:
+static- they are appeared as .
+relative - parent . 
+fixed - positioned related to browser window .
+absolute - child.
+sticky-fixed based on the user scroll . 
+
+-----------------
+z-index:
+overlapping the elements.
+--------------
+overflow:
+overflow:hidden;
+the overflow is hidden
+oveflow:scroll
+the overflow will be scroll
+overflow:visible
+it is normal 
+overflow:auto
+it is similar to scroll.
+---------------------
+
+
+
+
+
+
+
+
+css float: this property specifies how an element should float.
+float:left;
+the content will be to left
+float:right;
+content will be to right
+
+********
+we can add the clearfix with overflow:auto
+---------------------
+*{
+    box-sizing:border-box;
+  }
+with using them all the boxes side by side .
+---------------
+display:inline-block
+all the elements will be displayed in the form of block
+.
+-------------------
+input[type=text] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+for defineing the input type which is equal to text
+---------------------
+opacity:
+the transperency of an image.
+------------
+pseudo element:
+it is used to add the content before or after the element or style the first line or first word
+h1::before the content will be added before
+h1::after the content will be added after.
+-------------------
+pseudo class:
+when a mouse is hover .
+when visited or unvisited link
+style a element when it focus.
+example"
+a:visited{
+color:blue;
+}
+---------------
+combinators:the explains the relation between the selectors
+
+Descendant selector:
+div p {
+color:red
+}
+the text for all the paragraph in the div will be red.
+************
+child selector
+div >p{
+color:blue;
+all the child present in the div are selected to this style.
+}
+**************
+sibiling selector
+div +p {}
+the next paragraph after the div style will be occured
+**********
+ general sibiling selector
+div ~P{} all the paragraph  elements after the div the style will happen.
+---------------
+
+border-radius{}
+border radius for the content w
+
+
+background size :cover;
+-------------------
+flex:
+that allows the elements to algin and distribute space within a container,
+
+-----------------
+grid:
+display:grid- 
+display property set to grid.
+grid has 12 columns
+-------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

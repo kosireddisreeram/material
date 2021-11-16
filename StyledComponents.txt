@@ -1,0 +1,6 @@
+allows us to use component level styles for our application 
+it is a mixture of javascript and css using a technique called css-in-js
+
+purpose of styled components:
+styling and element architecture separate and make the components more redable
+ 

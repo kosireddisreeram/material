@@ -1,0 +1,91 @@
+we can use the react  without classes.
+we can use the state methods and lifecycle features from by using the functions . function can also be deal with state and lifecycle methods . without using the classes.
+-------------------
+lifecycle methods:
+mount- birth of your component
+update- growth of the component
+unmount- Death of the component
+
+component behaviour and share the component logic .
+hooks can cover all the causes for classes while provide more flexiv=bility in testing and reusing code.
+
+A good understanding of these hooks will give you the power of effectively control and manipulate goes in the component through out the lifecycle.
+
+first is the initial state and second is the function used for updating the state.
+useState :
+import react, {useState} from react
+we need to import react and useState from react .
+on click of the button the value is incremented
+import React,{useState} from 'react'
+const App = () => {
+  // syntax for using the useState
+  const [counter,setCounter] = useState(0);
+  const increment=()=>{
+    setCounter(counter+1);
+  };
+  return (
+    <div>
+    {counter}
+     <button onClick={increment}>Increment</button>    
+    </div>
+  )
+}
+export default App;
+----------------------------------
+use state
+ if any of the data changes it re-renders the ui
+------------------------------------------
+useEffect:
+it allows us to use the all of the lifecycle hooks within a single function Api.
+-------------------
+useContext:
+it allows us to share the data within the component tree without passing through the props.
+---------------------------
+useRef:
+this hooks allows us to create a mutable object.
+it does not trigger the re-render when the value changes.
+--------------------------------- 
+useReducer:
+it is similar to setState, it is a different way to manage state using the redux pattern.
+instead of updating we dispatch options that go through reducer 
+------------------------------
+useMemo:
+reduce the computational cost or improve performance.
+it mostly we need when we want to make expensive calaculations.
+------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

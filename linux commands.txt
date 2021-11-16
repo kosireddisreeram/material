@@ -1,0 +1,57 @@
+current directory : pwd 
+------------------------------------------------
+mkdir - make a directory (we can create a folder )
+-------------------------------
+change directory 
+cd { relative path of new directory}
+-------------------------------------------
+list of all the files in the directory 
+ls
+-----------------------------
+list of all files including the hidden files 
+ls -a
+------------------------------
+list of all file with time stamps
+ls -l
+--------------------------------------
+list of hidden files with time stamps and permissions
+ls -la
+---------------------
+touch {filename}
+we can create a file in the particular folder or directory
+------------------------------
+rename a file
+mv {name_of_file} {name_of_new_file}
+we need to enter the file and then we need to enter the new name of the file 
+------------------------------
+remove a file 
+rm {{name of the file }}
+----------------------
+delete a directory:
+rm -r {{name of the file}}
+----------------------
+read the whole content
+less{{name of the file }}
+---------------------------
+read the last ten line usually for log files
+tail {{name of the files}}
+--------------------------
+search inside the file 
+ grep {{text to search}} {{name of the file }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

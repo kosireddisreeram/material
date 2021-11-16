@@ -1,0 +1,66 @@
+BEM stands for block,element,modifier.
+For writing cleaner and more readable css classes.
+
+BEM also aims to write independent CSS Blocks in order to reuse them later in your project.
+---------------------
+.block
+block are named as standard css classes .
+// Blocks are named as standard css classes
+----------------------------------
+.block__element{
+}
+//element declared with two underscore,after block
+-------------------------------
+.block--modifier{
+two dashes are after element. used for blocks and elements.
+}
+-------------------
+.block__element--modifier{
+element and modifier togethar
+}
+
+block:
+<header>
+<nav>
+<section>
+<form>
+<article>
+<footer>
+block examples .
+
+element:
+childrens of the block An element can only have 1 parent block and cant be used outside the block .
+
+modifier:
+they represent different states or styles.
+--------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 

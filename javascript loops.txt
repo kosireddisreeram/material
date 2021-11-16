@@ -1,0 +1,9 @@
+the different types of loops in javascript are : that continues to repeat when the block of code is true.
+while 
+do while
+for 
+break
+continue
+the break statement jumps out of the loop
+continue statement jumps over one iteration in the loop
+

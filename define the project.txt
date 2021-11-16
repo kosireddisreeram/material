@@ -1,0 +1,72 @@
+red - draws the attention of the users symbolizes power passion and excitement
+orange - less aggressive and conveys happiness. cheerfulness and creativity
+yellow - bright intelligence and joy
+green- growth, nature, health
+blue- is associated with peace trustworthiness and professionalism
+purple - wealth wisdom and magic
+pink romance, care and affection
+black - power elegance and minimalism but also
+brown- nature durability and comfort
+
+
+step -1 : define the project?
+
+who the website is for?
+
+
+define what website is?
+
+
+define target audience ?
+----------------------------------------
+step-2:
+plan and gather website content?
+
+plan out the sitemap?
+
+define website personality ?
+
+plan page sections ?
+
+-----------------------
+
+rem and em dont follow the default font-size in media queries 1rem = 1em = 16px
+rem - root font size
+em - current font size
+10px / 16px =0.625 = 62.5%
+
+
+
+320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens.
+1201px and more — Extra large screens, TV.
+
+
+
+
+59 em  = 944px
+
+75 em  =  1200px
+
+84 em  = 1344
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

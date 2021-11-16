@@ -1,0 +1,9 @@
+The best way to consume the react bootstrap via npm.
+*********** npm install react-bootstrap bootstrap **********
+
+you should import the react individual component than the entire library then code what we will send to the client will be reduced.
+if you want to import a button in the react
+
+import Button from 'react-bootstrap/button'.
+
+

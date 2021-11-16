@@ -1,0 +1,8 @@
+to retrieve the data from the array and display in the front end we use map method.
+const company employees = [a,b,c,d]
+
+const companyName = companies.map(function(company))
+{
+    return company.name 
+})
+console.log(companyName);

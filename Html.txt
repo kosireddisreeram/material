@@ -1,0 +1,293 @@
+Html - hyper text mark up language.
+Describe the structure of the page.
+Html browser tells the browser how to display the content.
+Html labels pieces of elements.
+----------------------------------------------------------------------
+Html element : html element is defined by the start tag , content and end tag .
+
+<html>
+<head>
+<title>
+</title>
+</head>
+<body>
+</body>
+</html>
+------------------------------------------------
+Headings:
+<h1> to <h6> h1 is the highest and h6 is the lowest .
+------------------------------------------------------------------------------
+html links:
+<a href ="#">click </a>
+-----------------------------------------------------------
+images:
+<img src = "" alt= "alternate text for the image " >
+src the path to the image to be displayed.
+src specifies path of the image .
+alt specifies an alternate text for the image.
+-------------------------------------------
+nested html - the elements can contain other elements.
+-----------------------
+Attributes:
+they provide the additional information about elements.
+Attributes always specified in the starting tag.
+----------------------
+
+ title:
+more information about the content.
+-------------
+Headings:
+html headings 
+
+<h1> bigger size 
+<h6> smaller size
+----------------------
+by default the inline elements do not force a new line to begin.
+Block level elements on other hand typically cause a line break to occur.
+
+<p> <hr> block level elements . 
+<a>, <input>
+-------------------------------------
+<pre> the tag reserves the line breaks and spaces .
+---------------------------------
+html style - <tagname style = "property:value;"
+------------------------
+mark - to highlight the content.
+del - to delete the content and strike .
+ins- this will insert the element in the line usually it will be underlined.
+<sub>- subscripted the text will be under 
+<sup> - the text will be on the power.
+<abbr>- it defines the definition.
+<address> it will add a line space before and after the address and the font will be in italic.
+<cite> - it will be in italic fonts.
+<bdo> rtl the text will be written in right to left.
+-------------------------------------
+links
+self : the document will open in the same page .
+blank : open the document in new window
+parent : opens the document in the parent frame.
+top : open the body in the full body of a window .
+<a href = "mailto :a@gmail.com">send email </a></p>.
+---------------------
+float:
+float : left - the image will be on the left and the content will be on the right.
+float: right - the image on the right and the content is on the left.
+---------------------------
+
+background images:
+
+background-image:url(''); // the background image url .
+background-repeat: no-repeat - the background image wont get repeated.
+background-size:cover - the background image will cover the entire element.
+-------------
+picture:
+it will allow us to apply different images at different screen sizes.
+------------------------
+html table
+<tr> - table row
+<th> - table heading
+<td> - table column
+table borders:
+border-radius:to get the border .
+to specify some style to the element  : <tr style="height:200px">
+
+---------------
+padding:Space around the content.
+<p>-padding-left:10px;
+-------------------
+Cell spacing:
+change the space between the cells with the border-spacing
+----------------
+colgroup:
+<colgroup>
+  <col span="4" style="background-color: #D6EEEE">// th four colums will be applied the background color: 
+</colgroup>
+Add the a colgroup with a col element that spans over two columns to define a style for the two column
+-----------------------------
+
+html lists: it allows us to set list of utems
+
+ul - unordered 
+ol - ordered
+syntax for the ordered list:
+<ol>
+<li></li>
+<li></li>
+<li></li>
+<li></li>// output will be in numbers
+</ol>
+syntax for the unordered list:
+<ul>
+<li></li> // output will be in dots.
+<li></li>
+<li></li>
+<li></li>
+</ul>
+syntax for the description list:
+<dl>
+<dt></dt> heading
+<dd></dd> description
+</dl>
+we can add the style by adding list-style-type:none
+-----------------------------
+
+<span>inline element
+<div> block element
+-------------------------
+id: it is used for styling in javascript and manipulating the element in javascript 
+# it is denoted by the symbol.
+the id name is case sensitive
+it should not start with a numbers
+---------------------------------
+class name can be used by mulitiple html elements while id name must be used one element within the page.
+
+---------------------
+iframes:
+to display a webpage within a webpage 
+we can target the display the element in the particular iframe page
+<iframe  name="iframe_a" height="300px" width="100%"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+----------------------------
+Html javascript:
+javascript makes the html pages more interactive nad dynamic
+<script>
+document.getElementById("demo").innerHtml="i";
+</script>
+--------------
+html head :
+the folllowing will be in the head
+
+title
+style
+meta
+link
+script
+---------------------
+html forms
+<form>
+</form>
+<input type ="text" > - for type text
+<input type ="email"> - for type email
+<input type = "password">-for the type password
+
+</form>
+<label>we use it for headings</label>
+<input type ="radio" name="action" >male 
+<input type ="radio" name="action" >female
+
+<input type ="text" name ="" value ="name" id =""  readonly>
+read only means we can able to see it and it was not editable.
+
+----------------
+required field is required that it will not allow us to enter a blank value 
+-------------------
+Datalist
+it defines the pre defined input elements for the input field
+
+----------------------
+video plugins : 
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+</video>
+controls attribute adds controls to videos
+------------------------------
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+</audio controls>
+-------------------------------
+video controls
+loop = 1 the video will be repeated continously
+control = 0 controls wont be displayed
+control = 1 controls will be displayed.
+
+-------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,278 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+to ensure the designed to be responsive to mobile devices to ensure proper rendering and touch zooming.
+insert meta inside your head tag.
+width = device-width which has the screen width of the device.
+initial zoom level which is loaded by the browser.
+----------------
+.container - class provide responsive fixed width container
+.container-fluid - class provides a full width container spanning the entire width of the viewport.
+
+small screens - 576px;
+medium screens - 720px;
+large screens - 960px;
+extra large screens - 1140px;
+xxlarge - 1320;
+
+---------------------
+bootstrap grid system is built with flexbox consist of 12 columns across the page.
+we can group the colums to create wider columns.
+the grid system is responsive it will rearrange automatically depending on the screen size.
+
+it has six classes.
+.col- for extra small devices.
+.col-sm- small screen equal or greater than 576px.
+.col-md - greater than are equal to 768px.
+.col-lg - equal or greater than 992px.
+.col-xl - equal or greater than 1200px.
+.col-xxl - equal or greater than 1400px.
+-------------------------
+you can use .h1 to .h6 classes on their to behave like headings.
+<p class="h1">h1 Bootstrap heading</p>
+****Display headings are used to stand out more than normal headings bigger size light font weight.
+<h1 class = "Display-1"></h1>
+********
+<small> it is used to create the secondary heading in the heading.
+***********
+<pre>
+this is used to do with code as it is all will be same with white spaces and breaks
+------------------------
+
+
+background colors:
+
+
+for setting to the background color: .bg-primary
+
+text color:
+
+.text-primary
+
+--------------------------------------
+tables:
+
+.table adds the basic styling to the content.
+
+.table table-striped - adds zebra style to the content.
+.table table- bordered - adds border to the table
+.table table-hover - adds hover effect to the table .
+.table table-dark - adds background black to the table
+to create a dark striped table 
+.table table-dark table-striped
+.table table-borderless - without a border in table .
+<thead> - for the head . 
+<tbody> - for the body .
+we can add colors to the thead 
+<thead class="table-dark">
+class table-responsive .
+-----------------
+bootstrap5 images:
+class = "rounded" images will be rounded.
+class = "rounded-circle" image will be circle.
+
+class = "float-start"
+the image will be float to left.
+ class = "float-end"
+the image will be floaat to right.
+centered images 
+.mx-auto -margin auto
+.d-block - display block
+.mx-auto d-block - to display in center with the block .
+
+we can made the images responsive by adding the .img-fluid
+<div class = "img-fluid">
+-------------------------
+jumbotron:
+for adding the pdding and add some special content to the page.
+
+--------------------------
+alerts:
+
+.alert-link to any of the class to create alert box.
+
+
+closing alerts:
+.alert-dismissable to the container.
+.btn-close,.data-bs-dismiss="alert" to a link or button elemement.
+---------------------
+
+<button type="button" class = "btn btn-primary">v</button>
+
+
+block level buttons : 
+use d-grid on the parent element
+
+if you are having many buttons add the .gap to the control the space between the elements.
+to the parent class.
+<div class = "d-grid">
+ <button type="button" class="btn btn-primary btn-block">Full-Width Button</button>
+</div>
+
+.active -  to the button we will see the button is active.
+.disabled -to the button  to disable the button .
+
+spinner:
+  <span class="spinner-grow spinner-grow-sm"></span>
+   to add spinner to the class .
+-----------------------
+buttons:
+vertical buttons
+<div class="btn-group-vertical">
+  <button type="button" class="btn btn-primary">Apple</button>
+  <button type="button" class="btn btn-primary">Samsung</button>
+  <button type="button" class="btn btn-primary">Sony</button>
+</div>
+-------------------badges:
+are used to add additional information to the content
+
+<h1>Example heading <span class="badge bg-secondary">New</span></h1>
+
+
+pill badges:
+
+<span class="badge rounded-pill bg-primary">Primary</span>
+they shape of the badge will be in the shape of pill.
+
+
+
+we can add the bages inside an element
+<button type="button" class="btn btn-primary">
+  Messages <span class="badge bg-danger">4</span>
+</button>
+-----------------
+progress bars:
+
+we can add the class .progress to the container
+
+<div class="progress">
+  <div class="progress-bar" style="width:70%;height:20px"></div>
+</div>
+
+we can define the width of the bar
+
+
+we can also define the height of the progress bar.
+  
+
+we can insert the content inside the progres bar
+<div class="progress">
+  <div class="progress-bar" style="width:70%">70%</div>
+</div>
+
+we can also add the color to the progress bar
+<div class="progress">
+  <div class="progress-bar bg-success" style="width:20%"></div>
+</div>
+
+
+we can add the striped progress bars
+<div class="progress">
+  <div class="progress-bar progress-bar-striped" style="width:40%"></div>
+</div>
+
+-----------
+spinners:
+
+
+<div class="spinner-border text-primary"></div>
+
+
+--------------card:
+A basic card is created with .card with the content in the body as card-body
+contextual cards :  cards with background color
+ <div class="card bg-primary text-white">
+    <div class="card-body">Primary card</div>
+  </div>
+------------------
+carousel
+cycling through series of content
+-------------
+modal:
+a modal component is a dialog box that is displayed on the top of the page
+-----------------
+tooltip:
+when user hover over the content a pop up will be shown
+
+--------------------
+popover:
+when the user click on the content
+------------------
+
+
+toast:
+it is like a alert box only shown for couple of seconds when something happen .user submits a form.
+---------------------
+scrollspy
+Scrollspy is used to automatically update links in a navigation list based on scroll position.
+
+--------------------------
+offcanvas:
+hidden by default when user activated except that is often used as a sidebar
+ navigation menu .
+--------------
+utilities:
+it is has a lot of utility helper classes to quickly style elements.
+<span class="rounded"></span>
+
+-----------
+
+flexbox:
+instea of floats they use flex.
+<div class="d-flex p-3 bg-secondary text-white">
+  <div class="p-2 bg-info">Flex item 1</div>
+  <div class="p-2 bg-warning">Flex item 2</div>
+  <div class="p-2 bg-primary">Flex item 3</div>
+</div>
+
+-----------------
+forms:
+form-select:
+we can select the numbers from the droplist
+
+.form-label to add the label.
+.form-check- to add checkbox
+.form-check - to addd the checkbox
+
+.form-range - with the type range.
+
+flaoting labels : 
+when using labels, they normally appear on top of the input .
+
+
+.was-validated or needs-validated to check the validation
+---------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

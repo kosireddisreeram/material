@@ -1,0 +1,207 @@
+----To see the git config details
+git config --global -e
+----------
+:q to exit from the vi editor.
+------
+:wq- to save and quit from hte vi editor
+--------------
+To add the user name to the git 
+ git config --global user.name "kosireddisreeram"
+--------------
+To add the user email
+git config --global user.email "kosireddisreeram@gmail.com"
+-------
+To see the list of files
+git config --list
+----------
+To make a folder
+mkdir folder name
+----
+To change to the folder
+cd folder name
+----
+To clone
+git clone https link
+----------
+to seet the git version
+git version
+----
+to see node version
+node -v
+------
+to see the nom version
+npm -v
+--------
+cls - to clear the screen.
+-----------
+
+git help --config - opens the browser.
+--------
+how to stop server running at one port
+npx kill-port 3000
+---------------------
+git status-
+to see the status of the file.
+-------------
+git init
+to initialize a empty repository
+--------------
+
+git clone url- to clone the file from the git (https recommende)
+---------
+git commit -m ""
+to commit the changes
+------------
+git add . (or) git add "-A"
+to add all the files.
+---------------
+steps:
+git init - to initialize a empty repository
+git status - to know the changes done to the file.
+git add . - to add all the changes.
+git commit -m "" - git commit the changes and 
+git add "-A" - to add the changes.
+-----------------------------
+**********
+to kill the port npx kill-port 3000
+kill the port t 3000.
+**********
+
+ to remove the existing origin
+git remote remove origin
+--------------------
+
+
+commands with their meaning:
+
+git init - to initialize a empty repository
+--------------------------
+git clone - git clone url we can clone the code through it 
+------------
+git branch -
+git branch branch name a new branch will be created and 
+
+ex:
+git branch {branch name}
+----------------------
+git checkout {branch-name}
+
+we will be work in the branch
+--------------------
+
+
+git add:
+
+
+git add {file name} - what the file we had entered will be automatically save
+
+git add .  - all the files will be changed
+
+-------------------------
+git commit -m "message" - what are the commits we had done it in the 
+-----------------
+git push :
+git push 
+only when changes are commited then only the cod ewill pushed
+----------------------
+git diff
+to see the changes in the current branch and the another branch.
+-----------------------
+
+
+git pull
+
+
+-----------------
+git status:
+to see the status of your files
+
+-----------------
+
+
+
+git log 
+
+------------
+git merge:
+git checkout branch
+git pull 
+git merge
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

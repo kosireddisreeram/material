@@ -1,0 +1,23 @@
+we need to use the strict mode in the js file . 
+
+if we use the strict mode in the javascript file wecannot able use the variable which are not defined
+
+
+syntax:
+use 'strict'
+var x=1.2;
+document.write(X);
+we will get an error because we had not declared the variable previously.
+correct syntax:
+use 'strict'
+var x;
+var x = 19;
+document.write(x);   
+-----------------------
+
+
+format:
+
+shift + alt+ f
+-----------------------
+

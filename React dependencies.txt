@@ -1,0 +1,10 @@
+npm install - to install the node package manager .
+npm install react-bootstrap bootstrap - to install bootstrap in react.
+npm install node-sass- to install the saas
+npx kill-port 8080 - to kill the port
+ 
+react has the react youtube :
+
+to add the video player in react: 
+yarn add react-player
+ 

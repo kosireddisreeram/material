@@ -1,0 +1,22 @@
+html5 new tags :
+header 
+footer 
+article 
+aside
+audio
+video
+time
+----------------------
+input type:
+date
+email
+month
+number
+
+css:
+content :visibility
+flex and grid new properties.
+----------------------
+bootstrap 5 changed to javascript instead of jquery
+
+j

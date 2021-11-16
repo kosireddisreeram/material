@@ -1,0 +1,118 @@
+React is a javascript library for building ui interfaces.
+React is used to built single page applications.
+React allows us to create reusable components.
+To create the react app 
+npx create-react-app app-name
+to start the server 
+--
+npm start
+instead of maniplating the browsers DOM it creates a virtual Dom and make the changes to it .
+We need to start the classnames wiht the capital letters.
+Constructor Example
+
+<script>
+class Car {
+  constructor(name) {
+    this.brand = name;
+  }
+}
+
+mycar = new Car("Ford");
+
+document.write(mycar.brand);
+</script>
+
+example for the constructor using the 
+
+
+class Inheritance:
+It allows us to use the methods and variables of the parent class.
+it allows us to create the classes depending on the existing classes
+class model extends car(here the model is derived from the parent class car).
+
+
+
+Arrow Function :-
+
+var hello;
+hello = () => {
+  return "Hello world";
+}
+spread operator:
+const numberOne = [1,2,3];
+const numberTwo = [4,5,6];
+const numbersCombined= [...numberOne,...numberTwo];
+document.write(numbersCombined);
+the output will be both the arrays will be combined.
+
+
+MODULES:
+javascript modules helps you to break up the code in to separate files.
+
+exporting the modules:
+const name = "jain";
+const age=23;
+export{name,age}
+
+Default exports:
+export Default name.
+
+import from named exports:
+import { name, age } from "./person.js";//importing the cost names from the files.
+
+import from default exports:
+import component name from the file.
+import message from "./message.js";
+ternary operator:
+it is the simply consitional operator if else.
+authenticated ? renderApp() : renderLogin();
+React Render HTML :
+
+to render the html page ReactDOM.render().
+jsx :
+it stands for the javascript XML.
+jsx allows us to write html in to React.
+jsx allows us to write and add html in to the react.
+expressions in the javascript { expression}.
+the html code must be enclosed in the top level element.
+we can insert in the code in fragments we can use the fragment to hold multiple lines.
+<> </> . 
+Name of the attributes should be written as className.
+Components:
+components should be include the extension React.Components
+the component . name should start with the capital letters.
+this call created with inheritance to React.Component
+render()- which returns html . 
+props:
+Components can be passed as props which stands for properties.
+we can refer to component in another component.
+
+if we want to use the component we need to import the file.
+When you are having the constructor() function inside your component, this will be called when a component is initiated.
+In react component properties should be kept in state 
+
+We assign the name attribute to the component and assign the value.
+to retrieve the values in the component.
+there are two steps: (in the component we are using )
+ * first step add the parameter to the functional component : props
+* second use the parameter in the function body.
+{props.attributename}
+
+***************where use should pass the attributes************
+pass the attribute value where we are using the component.
+ in the component we had created pass the parameter as props 
+ to print the output.
+
+call it as  { props.attributename} .
+to call the jsx we need to call it in the curly braces . 
+
+
+
+
+hooks:
+Rules:
+never call a hook from outside a loop.
+Hooks should sit at top level of your component.
+Only call hooks from react functional components.
+Never call a  hook from regular function.
+Hooks can call another hooks.

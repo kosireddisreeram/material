@@ -1,0 +1,154 @@
+the conditions in javascript are: statements that only run under the particular conditions
+if - to specify  a block of code if the condition is true . 
+else - to execute the block of code if the same condition is false.
+elseif - to specify a new condition to test if the first condition is false.
+switch- dealing with the multiple blocks of code to be executed.
+
+
+---------------------if:
+syntax for the for loop:
+if {
+}
+
+example :
+var a,b;
+var a =10;
+var b =20;
+if(a>b){
+document.write('hello');
+}
+
+explaination:
+if the above condtion satisfies a>b
+when the above condition is satisfied the piece of code will be executed
+----------------------------------
+else:block of code to be executed if condition is false
+syntax:
+if{
+}
+else
+{
+}
+
+
+if the if condition is false then else comndition will be executed
+
+example:
+var hour;
+hour=10;
+if(hour>14){
+document.write('condition is satisfied')
+}
+else{
+document.write('condition not satisfied')
+}
+--------------------------------------
+elseif:
+to specify a new condition if the first condition is false.
+syntax:
+if{
+ }
+elseif{
+}
+else{
+}
+
+example:
+var hour;
+hour=10;
+if(hour>14){
+document.write('hour is greater than 14')
+}
+else if(hour=10){
+document.write('else if condition is satisfied')
+}
+else{
+document.write(`else condition is satisfied`)
+}
+-------------------------------------
+switch condition:
+
+it is used to perform differnet action based on different conditions:
+
+switch:
+
+syntax:
+
+switch(expression){
+case x:
+  //code
+  break;
+ case y:
+  //code
+  break;
+ default:
+  // code block
+
+}
+if default is not the end case of the switch we need to end with break
+
+<script>
+let x=0;
+
+switch(x){
+   
+  case 0:
+    text
+
+
+
+
+ }
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

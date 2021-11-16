@@ -1,0 +1,6 @@
+Redux is a state management javascript library.
+A predictable state container for javascript Apps.
+stateontainer global state for entire apps.
+All the data is stored in the single state.
+it is most commonly used in libraries react or angular for building the user interfaces
+https://redux.js.org/
